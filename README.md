@@ -124,15 +124,15 @@ export const auth = getAuth(app);
 
 The app is structured as follows:  
 src/  
-├── assets/ # Static assets (fonts, images)  
-├── components/ # Reusable components  
-├── config/ # Configuration files (e.g., Firebase)  
-├── context/ # Context providers (e.g., AuthContext)  
-├── stacks/ # Navigation setup (e.g., MainStackNavigator)  
-├── screens/ # App screens (e.g., Login, Listing, Details)  
-├── services/ # API and Firebase services  
-├── types/ # TypeScript types  
-└── App.tsx # Main app component  
+├── assets/          # Static assets (fonts, images)  
+├── components/      # Reusable components  
+├── config/          # Configuration files (e.g., Firebase)  
+├── context/         # Context providers (e.g., AuthContext)  
+├── stacks/          # Navigation setup (e.g., MainStackNavigator)  
+├── screens/         # App screens (e.g., Login, Listing, Details)  
+├── services/        # API and Firebase services  
+├── types/           # TypeScript types  
+└── App.tsx          # Main app component  
 
 ---
 
