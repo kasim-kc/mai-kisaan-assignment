@@ -1,0 +1,9 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "strict": true,
+    "types": ["nativewind"]
+  },
+  "include": ["src/**/*", "src/types/nativewind.d.ts", "nativewind-env.d.ts"]
+}
